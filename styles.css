@@ -20,7 +20,8 @@ body {
   font-family: 'Outfit', sans-serif;
   background-color: var(--Stone-100);
   color: var(--Stone-900);
-  padding: 1.25rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
   font-size: 1rem;
   display: flex;
   justify-content: center;
@@ -30,9 +31,9 @@ body {
 
 .recipe-card {
     background-color: var(--White);
-    border-radius: 0.625rem;
+    border-radius: 1rem;
     overflow: hidden;
-    max-width: 37.5rem;
+    max-width: 40.5rem;
     padding: 2rem;
     box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
   }
@@ -67,7 +68,7 @@ body {
    margin: 1rem 0;
 }
 
-.prep-time h3 {
+.prep-time h2 {
     font-family: 'outfit';
     font-size: 1rem;
     margin-bottom: 0.7rem;
@@ -97,6 +98,7 @@ h2 {
     font-weight: 500;
     margin-bottom: 1rem;
 }
+
 
 .ingredients ul {
     font-size: 0.9rem;
